@@ -1,0 +1,38 @@
+
+/* .container{
+    display: grid;
+    grid-template-columns: 100px 500px;
+    grid-template-rows: auto;
+    background-color: rgb(161, 252, 161);
+    padding: 10px;
+}
+
+.item{
+    background-color: rgb(255, 186, 224);
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    height: 70px;   
+}  */
+ 
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px 10px;
+}
+
+.item{
+    background-color: rgb(255, 186, 224);
+    border: 10px solid rgb(193, 231, 255) ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;  
+} 
+ 
+.item1,
+.item6,
+.item8 {
+    grid-column-start: 1;
+    grid-auto-rows: 3;
+}
