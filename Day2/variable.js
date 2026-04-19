@@ -30,7 +30,7 @@ var LOWER = "thanh ngọc"
 // console.log(LOWER.toUpperCase())
 
 // Loại bỏ khoảng trắng trong string
-var stringTrim = "      Thanh Ngọc                      ";
+var stringTrim = "Thanh Ngọc";
 var dataText = stringTrim.trim();
 // console.log(dataText);
 
